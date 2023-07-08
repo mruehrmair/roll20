@@ -6,9 +6,7 @@ on('ready',()=>{
   // Declare a function called myFunc.  This is using the "Fat Arrow" function syntax
   //   and the const declaration from Javascript ES6
   const sendToChat = (msg)=>{
-   // sendChat('myFunc','myFunc was called! Hello World!');
-   sendChat('check-ability-scores-3d6', msg);
-    
+   sendChat('check-ability-scores', msg);    
   };
   
   const areRollsOk = (rolls)=>{
@@ -28,7 +26,7 @@ on('ready',()=>{
     //  Next, make sure this is our API message.  The regular expression checks that the 
     //    command starts with "!call-my-func" and either ends or has a space, all case 
     //    insensitive.
-    if('api'===msg.type && /^!check-ability-scores-3d6(\b\s|$)/i.test(msg.content)){
+    if('api'===msg.type && /^!check-ability-scores(\b\s|$)/i.test(msg.content)){
       
       let dicerolls = msg.inlinerolls||[];
       
@@ -48,8 +46,7 @@ on('ready',()=>{
         {
             sendToChat(`Your rolls are too low. Consider rerolling => ${diceRollTotals.join()}`);
         }
-      }
-      
+      }   
     }
   });
 });
