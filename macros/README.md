@@ -23,3 +23,7 @@ Once per short rest, you can use a bonus action to regain 1d10 + fighter level H
 # Great Weapon Fighting Reroll
 ## Damage 
 2d6ro<2
+
+# Initiative for NPCs
+## Macro
+/w gm %{selected|npc_init}
