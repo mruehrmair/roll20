@@ -5,7 +5,7 @@
 ## Description
 Green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it, dealing [[ [[(floor((@{level}+1)/6))]]d8+@{intelligence_mod} ]]
 
-#Booming Blade
+# Booming Blade
 ## Damage 2
 [[floor((@{level} + 1)/6)]]d8
 ## Description
