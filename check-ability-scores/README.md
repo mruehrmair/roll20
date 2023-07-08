@@ -4,7 +4,7 @@ A script to check groups of inline dice rolls
 ## Usage
 !check-ability-scores-3d6 [[xdy]] [[xdy]] [[xdy]] [[xdy]] [[xdy]] [[xdy]]
 
-## Implemenation
+## Implementation
 Currently the script checks if at least one roll totals 14 or more AND that there are less than two rolls totaling 6 or less.
 
 ## Examples
