@@ -1,0 +1,14 @@
+{
+    "$schema": "https://github.com/Roll20/roll20-api-scripts/master/_Example%20Script%20-%20Check%20for%20formatting%20details/script.schema.json",
+    "name": "Check Ability Scores",
+    "script": "check-ability-scores.js",
+    "version": "1.0",
+    "previousversions": [],
+    "description": "Checks inline dice roll group passed from the chat and returns a message wether the check succeeded or not.",
+    "authors": "Markus Rührmair",
+    "roll20userid": "1188187",
+    "useroptions": [],
+    "dependencies": [],
+    "modifies": {},
+    "conflicts": []
+}
