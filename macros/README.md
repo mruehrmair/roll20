@@ -30,3 +30,7 @@ Once per short rest, you can use a bonus action to regain 1d10 + fighter level H
 ## Initiative for NPCs
 ### Macro
 /w gm %{selected|npc_init}
+
+## Morale
+### Macro
+/w gm Roll: [[2d6]] Morale: @{selected|morale} Roll Morale score or lower to succeed and not flee
