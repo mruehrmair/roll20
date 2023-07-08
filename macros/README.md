@@ -14,3 +14,8 @@ The target becomes sheathed in booming energy until the start of your next turn.
 # Second Wind
 ## Description
 Once per short rest, you can use a bonus action to regain 1d10 + fighter level HP: [[1d10+[[@{level}]] ]]
+
+#Concentration
+## Macro
+/me tries to maintain concentration
+@{selected|wtype}&{template:atkdmg} {{rname=^{constitution-u}}} {{mod=@{selected|constitution_save_bonus}@{selected|globalsavingthrowbonus}}} {{r1=[[1d20+[[@{selected|constitution_save_bonus}]][CON+PROF]@{selected|globalsavingthrowbonus} ]]}} @{selected|rtype}+[[ @{selected|constitution_save_bonus} ]][CON+PROF]@{selected|globalsavingthrowbonus} ]]}} {{attack=1}} {{range=}} 0 {{dmg1=[[0]]}} {{dmg1type=}} 0 {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[0[CRIT]]]}} {{crit2=[[0[CRIT]]]}} {{save=1}} {{saveattr=Constitution}} {{savedesc=or lose concentration}} {{savedc=[[[[([[ { floor(?{Damage Taken|10}/2), 10}kh1]])]][SAVE]]]}} {{desc=}}
