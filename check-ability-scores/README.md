@@ -1,5 +1,5 @@
 # Check ability scores
-A script to check groups of inline dice rolls. Can be used to quickly create arrays of 3d6 rolls, convenient for OSR type games.
+A script to check groups of inline dice rolls. Can be used to quickly create and evaluate arrays of 3d6 rolls. Convenient for OSR type games.
 
 ## Usage
 !check-ability-scores [[xdy]] [[xdy]] [[xdy]] [[xdy]] [[xdy]] [[xdy]]
