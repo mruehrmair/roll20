@@ -12,8 +12,9 @@ on('ready',()=>{
   const areRollsOk = (rolls)=>{
    let result = true;
    const isHigherThan = (roll) => roll > 13;
+   const sum = rolls.reduce((partialSum, a) => partialSum + a, 0);
    const rollsLowerThan = rolls.filter(roll => roll < 6);
-   result = rolls.some(isHigherThan) && (rollsLowerThan.length >= 2 ? false : true);
+   result = rolls.some(isHigherThan) && (rollsLowerThan.length >= 2 ? false : true) && sum >= 55;
    return result;
   };
 
